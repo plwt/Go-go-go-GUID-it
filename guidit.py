@@ -5,10 +5,6 @@ def guidit():
     # Create GUID
     random_uuid = uuid.uuid4()
 
-    
-  
-
-    
     # Create text file for GUID
     textfile=open('/opt/GoGoGoGUIDIt/src/GUID.txt', 'w', encoding='utf-8')
     textfile.write('GUID =  \n')
@@ -24,6 +20,24 @@ def guidit():
 
 #run GUID generator 
 guidit()
+  
+
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
