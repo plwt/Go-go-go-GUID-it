@@ -1,8 +1,5 @@
 import uuid
 
-
-
-
 def guidit():
     
     # Create GUID
@@ -27,3 +24,29 @@ def guidit():
 
 #run GUID generator 
 guidit()
+
+
+
+    
+
+
+
+  
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
