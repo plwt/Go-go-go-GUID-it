@@ -6,7 +6,7 @@ def guidit():
     random_uuid = uuid.uuid4()
 
     # Create text file for GUID
-    textfile=open('/opt/GoGoGoGUIDIt/src/GUID.txt', 'w', encoding='utf-8')
+    textfile=open('/opt/Go-go-go-GUID-it/src/GUID.txt', 'w', encoding='utf-8')
     textfile.write('GUID =  \n')
     textfile.write('\n')
     
