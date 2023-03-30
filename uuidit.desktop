@@ -6,6 +6,6 @@ Exec=/usr/bin/x-terminal-emulator -e "/opt/Lets-UUID-it/SRC/uuidit.sh"
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/opt/PassGen/src/guidit.png
+Icon=/opt/PassGen/src/uuidit.png
 Categories=GNOME;GTK;Development;
 Name[en_GB]=Let's UUID it
