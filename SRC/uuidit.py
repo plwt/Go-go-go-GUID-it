@@ -1,4 +1,7 @@
 import uuid
+import subprocess
+
+paths = {"openfile" = "/opt/Lets-UUID-it/SRC/UUID.txt"}
 
 def uuidit():
     
@@ -17,6 +20,39 @@ def uuidit():
     textfile.write('\n')
 
     textfile.close()
+    
+    subprocess.Popen(paths["fileopen"])
 
 #run UUID generator 
 uuidit()
+
+
+
+
+
+
+paths = {
+    "notepad": "mousepad",
+    "thunderbird": "/opt/thunderbird/thunderbird-bin",
+    "zoom": "/snap/bin/zoom-client",
+    "files": "thunar",
+    "code": "/snap/bin/code",
+    
+    
+}
+
+def open_notepad():
+    # Open the note pad
+    subprocess.Popen(paths["notepad"])
+
+def close_notepad():
+
+
+
+
+
+
+
+
+   
+
