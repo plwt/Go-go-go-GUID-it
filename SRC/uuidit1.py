@@ -31,21 +31,21 @@ uuidit()
 
 
 
-paths = {
-    "notepad": "mousepad",
-    "thunderbird": "/opt/thunderbird/thunderbird-bin",
-    "zoom": "/snap/bin/zoom-client",
-    "files": "thunar",
-    "code": "/snap/bin/code",
+
+   
+    
+
+
+
     
     
-}
 
-def open_notepad():
-    # Open the note pad
-    subprocess.Popen(paths["notepad"])
 
-def close_notepad():
+
+
+
+
+
 
 
 
