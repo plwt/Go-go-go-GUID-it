@@ -21,7 +21,7 @@ def uuidit():
 
     textfile.close()
     
-    subprocess.Popen(paths["fileopen"])
+    subprocess.Popen(["xdg-open", "/opt/PassGen/src/Password.txt"])
 
 #run UUID generator 
 uuidit()
